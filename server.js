@@ -29,7 +29,7 @@ app.use((err, req, res, next) => {
 });
 
 // set the port to use
-const port = 3000;
+const port = parseInt(process.env.PORT, 10) || 3000;
 
 // start the server
 const server = app.listen(port, () => {

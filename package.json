@@ -4,7 +4,9 @@
   "description": "any discription to explain your application",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm install",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
