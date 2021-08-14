@@ -1,0 +1,24 @@
+{
+  "name": "the-test-website",
+  "version": "1.0.2",
+  "description": "any discription to explain your application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohanbhuri/theTestWebsite.git"
+  },
+  "author": "Rohan Bhuri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohanbhuri/theTestWebsite/issues"
+  },
+  "homepage": "https://github.com/rohanbhuri/theTestWebsite#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
