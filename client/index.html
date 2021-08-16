@@ -1,84 +1,9 @@
 <!DOCTYPE html>
 <html>
 
-<style>
-    .main-black-div {
-        background-color: #282a33;
-        color: #fff;
-        width: 500px;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding: 15px;
-    }
-
-    .search-icon {
-        width: 30px;
-        height: 30px;
-        float: right;
-    }
-
-    .main-heading {
-        margin: 0;
-    }
-
-    .small-text {
-        color: #ababab;
-    }
-
-    .red-box {
-        background-color: #ef588b;
-        background-image: linear-gradient(to right, #f16064, #ef588b);
-        border-radius: 5px;
-        padding: 10px;
-        margin: 20px 0px;
-    }
-
-    .green-box {
-        background-color: #ef588b;
-        background-image: linear-gradient(to right, #7dc684, #5cbe79);
-        border-radius: 5px;
-        padding: 10px;
-        margin: 20px 0px;
-    }
-
-    .blue-box {
-        background-color: #ef588b;
-        background-image: linear-gradient(to right, #7c7fae, #7872b4);
-        border-radius: 5px;
-        padding: 10px;
-        margin: 20px 0px;
-    }
-
-    img.save {
-        width: 30px;
-        height: 30px;
-    }
-
-    img.dots {
-        width: 30px;
-        height: 30px;
-    }
-
-    .icons {
-        width: 70px;
-        float: right;
-    }
-
-    .main-black-div h4 {
-        width: 200px;
-    }
-
-    .icons {
-        width: 70px;
-        float: right;
-        margin-top: -60px;
-    }
-</style>
-
 <head>
     <title>Page Title</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body style="background-color:'#e7ecf5';">
@@ -86,7 +11,7 @@
     <div class="main-black-div">
         <div>
             <img class="user-image" src="assets/imgs/1628768171346.png" alt="">
-            <img class="search-icon" src="assets/imgs/outline_search_white_24dp.png" alt="">
+            <img  class="search-icon" src="assets/imgs/outline_search_white_24dp.png" alt="">
         </div>
         <h1 class="main-heading">Buzz world</h1>
         <span class="small-text">in sport light</span>
@@ -94,17 +19,17 @@
         <!-- box1 -->
         <div class="red-box">
             <div>
-                <h4>10 Tips for Great Brand Design</h4>
+                <h4 id="h4-in-red-box">10 Tips for Great Brand Design</h4>
                 <div class="icons">
                     <img class="save" src="assets/imgs/outline_bookmark_border_white_24dp.png" alt="">
-                    <img class="dots" src="assets/imgs/outline_more_horiz_white_24dp.png" alt="">
+                    <img id="three-dots" class="dots" src="assets/imgs/outline_more_horiz_white_24dp.png" alt="">
                 </div>
             </div>
             <p>What does this hold in terms of including or guiding it to form a positive..</p>
         </div>
 
         <!-- box2 -->
-        <div class="green-box">
+        <div class="green-box" id="green-box" style="display: none;">
             <div>
                 <h4>10 Tips for Great Brand Design</h4>
                 <div class="icons">
@@ -130,6 +55,8 @@
         </div>
 
     </div>
+
+    <script src="./assets/js/script.js"></script>
 
 </body>
 
